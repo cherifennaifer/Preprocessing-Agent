@@ -1,7 +1,8 @@
 streamlit>=1.38.0
 crewai>=0.80.0
 chromadb>=0.5.0
-pydantic>=2.0.0
+pydantic>=2.0.0,<2.12
+litellm
 pandas
 scikit-learn
 python-dotenv>=1.0.0
